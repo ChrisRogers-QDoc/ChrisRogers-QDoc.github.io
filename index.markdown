@@ -15,8 +15,8 @@ University of Manitoba, Winnipeg, MB.
 
 ## Technical Skills
 ### Programming
-**Languages**: Python, Java, JavaScript, Ruby, C, C++  
-**Web Development**: NodeJS, SQL, HTML, CSS, RESTful APIs, Bootstrap, Vue.js, React, TypeScript
+**Languages**: Python, Java, JavaScript, TypeScript, Ruby, SQL, C, C++  
+**Web Development**: NodeJS, HTML, CSS, RESTful APIs, Bootstrap, Vue.js, React
 
 ### Software & Operating Systems
 **Practical Experience**: Windows, MacOS, Linux, Visual Studio Code, IntelliJ IDEA, PyCharm, Microsoft Office Suite, Visual Studio
