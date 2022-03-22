@@ -5,6 +5,7 @@
 layout: home
 ---  
 
+# Chris Rogers
 ROGERSC3@MYUMANITOBA.CA | GITHUB.COM/CHRISMROGERS | (204) 218-8117
 
 ## Education
