@@ -12,7 +12,8 @@ The purpose of this README is to provide instruction on hosting your Markdown re
 ## Instructions
 ### Creating our Jekyll Project
 1. From your terminal (macOS/Linux) or your command prompt window, type `jekyll new myResume`, replacing `myResume` with whatever you would like to call your project. If you did everything correctly you should see something like the following:  
-![image](https://user-images.githubusercontent.com/97467354/159175446-37432798-1334-4a76-95a1-a80f29855244.png)
+![image](https://user-images.githubusercontent.com/97467354/159175446-37432798-1334-4a76-95a1-a80f29855244.png)  
+> Andrew Etter points out that for static websites (like a resume), using a static site generator will provide speed, simplicity, portability and security.
 2. Change directories into the newly created project directory by running `cd myResume`, again replacing `myResume` with whatever your project is actually called. In my case, it is `markdownResume`.
 3. Lastly, run `bundle exec jekyll serve` and navigate to http://localhost:4000.  
 **Note**: If the above command fails you may need to add `webrick` to your dependencies: `bundle add webrick`. Then repeat the above step.  
@@ -22,9 +23,10 @@ Your localhost should look like the following!
 ![image](https://user-images.githubusercontent.com/97467354/159176222-45932e0c-f8f4-41bc-bf14-52c57d2f41fc.png)
 
 ### Customizing your webpage locally
+> The reason we're creating a website is to help display our resumes, but you can take the knowledge that you gain in this walkthrough elsewhere! Etter makes an excellent point in his book, if you are shipping software to end users it can be alright to send a README with the software, but you'll never be able to update it. By keeping the important information a user needs on an easily editable website, if any changes are made to the project you only need to worry about updating it in one spot!  
 - If you are still running the Jekyll server, press `ctrl+c` in the terminal/command prompt it is running in to stop it.
-- Open VS Code (or another suitable markdown editor like [Atom](https://atom.io/), and open the directory for the Jekyll project you have just created.
-- In the file `index.markdown` in the root of the project copy and paste your markdown formatted resume *after* this block of code:  
+1. Open VS Code (or another suitable markdown editor like [Atom](https://atom.io/), and open the directory for the Jekyll project you have just created.
+2. In the file `index.markdown` in the root of the project copy and paste your markdown formatted resume *after* this block of code:  
 ![image](https://user-images.githubusercontent.com/97467354/159183929-35c12684-f4aa-4723-8767-86473efdfd04.png)
 
 ```
@@ -35,7 +37,7 @@ Your localhost should look like the following!
 layout: home
 ---
 ```
-- Navigate to the file `_config.yml`, which is where we can customize the theme and metadata for the website.
+3. Navigate to the file `_config.yml`, which is where we can customize the theme and metadata for the website.
   - Edit the `title` of your website, which is what will appear in the browser tab as well as the top of your website.
   - Edit the `email` value to an email address you wish to be reached at
   - Edit the `description` value, leaving the `>-`. It should look as follows:
@@ -45,10 +47,11 @@ layout: home
   COMP 3040 at the University of Manitoba.
   ```
   - Edit your `github_username` and `twitter_username` if you wish to.
-- You can delete the `_posts` folder from the project, as well as the file called `about.markdown`
-- Run `
+4. You can delete the `_posts` folder from the project, as well as the file called `about.markdown`
+5. Run `bundler exec jekyll serve` and validate that your project looks the way you want it to, then press `ctrl+c` in the terminal/command prompt before continuing to the next steps.
 
 ### Uploading to GitHub Pages
+> Why use source control? Source control, or as Etter puts it, "Distributed Version Control", is useful for increasing the contribution to any project you're working on. Often this can be overkill for most documentation projects, but it is important to learn how Source Control works, especially if you are going to be working with software developers! Source control is especially helpful when the documentation you're writing is being stored in the same place as the project you're writing it for, so that all of the people working on the project are able to see and work on the documentation as well if need be.   
 - Navigate and login to [GitHub](https://github.com/) and create a new repository by clicking on the green "New" button located on the left of your screen: ![image](https://user-images.githubusercontent.com/97467354/159386878-4fcb4042-23d0-4e06-86c7-f4d5ba0303d8.png)
 - When prompted to name the repository, name it `{your github account name}.github.io`, as this is required by GitHub Pages.
 - Optionally you can initialize the repository with a README.md, as well as providing a short description of what the repository is for. Leave everything else as default.
@@ -61,6 +64,10 @@ layout: home
 - Navigate to Settings -> Pages where you will now find a link stating that your project is now ready to be hosted on `https://{your github account}.github.io`, click that link to view your resume!
 
 ![Pages - Google Chrome 2022-03-21 20-27-25](https://user-images.githubusercontent.com/97467354/159389416-76935ebe-ac07-4787-b8c9-722949df65b2.gif)
+
+## Authors and Acknowledgements
+The theme used for this project, Minima, was created by the fine folks [here](https://github.com/jekyll/minima).  
+Thank you to my group members Brett, Xian, Ashish and Christian for looking at my project and giving me great feedback!
 
 ## FAQ
 **Why is Markdown better than a word processor?**
