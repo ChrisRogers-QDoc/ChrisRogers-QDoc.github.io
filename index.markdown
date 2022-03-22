@@ -3,8 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
----
-ROGERSC3@MYUMANITOBA.CA | GITHUB.COM/CHRISMROGERS | (204)218-8117
+---  
+
+ROGERSC3@MYUMANITOBA.CA | GITHUB.COM/CHRISMROGERS | (204) 218-8117
 
 ## Education
 **Bachelor of Science, Computer Science Major (Co-op Option)**  
