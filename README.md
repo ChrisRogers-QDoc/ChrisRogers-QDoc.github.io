@@ -65,6 +65,13 @@ layout: home
 
 ![Pages - Google Chrome 2022-03-21 20-27-25](https://user-images.githubusercontent.com/97467354/159389416-76935ebe-ac07-4787-b8c9-722949df65b2.gif)
 
+- The keen eyed among you may also notice the `Change Theme` button, I encourage you to click that and explore some of the other Jekyll themes built directly into GitHub Pages!
+
+## More Resources
+- For more information regarding Jekyll, please visit their website [here](https://jekyllrb.com/), where you can find documentation and a plethora of fun ways to customize your webpage even further.
+- GitHub provides a swanky [Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) that will help you to learn the specific type of Markdown used to create this tutorial, *GitHub Flavored Markdown*.
+- Once again, a great resource for learning about writing documentation is Andrew Etter's [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
+
 ## Authors and Acknowledgements
 The theme used for this project, Minima, was created by the fine folks [here](https://github.com/jekyll/minima).  
 Thank you to my group members Brett, Xian, Ashish and Christian for looking at my project and giving me great feedback!
