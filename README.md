@@ -74,7 +74,7 @@ layout: home
 
 ## Authors and Acknowledgements
 The theme used for this project, Minima, was created by the fine folks [here](https://github.com/jekyll/minima).  
-Thank you to my group members Brett, Xian, Ashish and Christian for looking at my project and giving me great feedback!
+Thank you to my group members Brett and Xian for looking at my project and giving me great feedback!
 
 ## FAQ
 **Why is Markdown better than a word processor?**
